@@ -6,6 +6,8 @@ const changeImgPopCat = () => {
     i = i + 1;
     popCat.src = "images/cat-pop.png";
     countPop.innerHTML = i;
+    let audio = new Audio("sounds/pop.mp3");
+    audio.play();
   };
   popCat.onmouseup = () => {
     popCat.src = "images/cat.png";
