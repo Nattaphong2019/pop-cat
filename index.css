@@ -1,0 +1,38 @@
+body {
+  background-image: url("images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img {
+  width: 1500px;
+}
+.pop-cat {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.pop-cat > div > p {
+  position: fixed;
+  top: 73%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 300px;
+  color: white;
+}
+
+@media only screen and (min-width: 1200px) {
+  img {
+    width: 1300px;
+  }
+  .pop-cat > div > p {
+    position: fixed;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 200px;
+    color: white;
+  }
+}
